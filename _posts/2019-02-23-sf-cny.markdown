@@ -1,0 +1,23 @@
+---
+layout: post
+name: 2019-02-23-sf-cny
+title:  "SF Chinese New Year Parade 2019"
+date:   2019-02-23
+categories: photography
+---
+
+{::nomarkdown}
+{% include image.html path="photos/2019-02-23-sf-cny/01. DSC01467.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/02. DSC01470.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/03. DSC01476.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/04. DSC01490.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/05. DSC01496.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/06. DSC01498.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/07. DSC01513.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/08. DSC01516.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/09. DSC01521.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/10. DSC01524.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/11. DSC01533.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/12. DSC01540.jpg" %}
+{% include image.html path="photos/2019-02-23-sf-cny/13. DSC01546.jpg" %}
+{:/nomarkdown}

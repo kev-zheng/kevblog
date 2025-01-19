@@ -1,0 +1,88 @@
+---
+layout: base
+---
+
+<div class="home homepage container">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  <div class="profile-column">
+      <div class="profile-container">
+          <img class="profile-picture" src="/assets/profile.jpg" alt="image"/>
+      </div>
+
+      <div class="bio-nav">
+        <a href="about">professional bio</a>
+      </div>
+  </div>
+
+  <div class="content-column">
+    {%- if posts.size > 0 -%}
+      <div class="grid-header row">
+        <h4>see&nbsp</h4>
+        <select class="custom-select filter-field">
+          <option class="select-posts" value="">all</option>
+          <option class="select-travel" value="travel">travel</option>
+          <option class="select-tech" value="tech">tech</option>
+          <option class="select-photography" value="photography">photography</option>
+        </select>
+      </div>
+  
+      <div class="row">
+        <div class="grid">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {%- for post in posts -%}
+          <div class="item row" data-category="{{ post.categories }}">
+            <a class="post-meta no-link-decoration" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <p class="post-meta">{{ post.date | date: date_format }}</p>
+          </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script type="text/javascript">
+  var grid = new Muuri('.grid', {dragEnabled: false, layout: {fillGaps: true}});
+
+  var filterField = document.querySelector('.filter-field');
+  filterField.addEventListener('change', filter);
+
+  function filter() {
+    grid.filter(function (item) {
+      var element = item.getElement();
+      var isFilterMatch = filterField.value == "" ? true : (element.getAttribute('data-category').includes(filterField.value))
+    
+      return isFilterMatch;
+    
+    });
+  }
+
+  function DropDown(el) {
+      this.dd = el;
+      this.initEvents();
+  }
+
+  DropDown.prototype = {
+    initEvents : function() {
+        var obj = this;
+
+        obj.dd.on('click', function(event){
+            $(this).toggleClass('active');
+            event.stopPropagation();
+        }); 
+    }
+  }
+
+</script>
+

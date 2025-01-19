@@ -1,0 +1,19 @@
+---
+layout: post
+name: 2017-02-08-shei
+title:  "SHEI Magazine 2017"
+date:   2017-02-08
+categories: photography
+---
+
+{::nomarkdown}
+{% include image.html path="photos/2017-02-08-shei/1. essentials_1.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/2. essentials_2.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/3. contrast_1.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/4. contrast_2.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/5. contrast_3.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/6. contrast_4.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/7. menswear_1.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/8. menswear_3.jpg" %}
+{% include image.html path="photos/2017-02-08-shei/9. menswear_4.jpg" %}
+{:/nomarkdown}

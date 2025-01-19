@@ -1,0 +1,34 @@
+---
+layout: post
+name: 2016-01-26-aus-nz
+title:  "Australia & New Zealand 2016"
+date:   2016-01-26
+categories: photography
+---
+
+{::nomarkdown}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A3760.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A3789.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A3797.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4102.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4189.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4248.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4276.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4277.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4352.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4590.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4614.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4664.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4698.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A4869.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A5213.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A5351.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A5403.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A5573.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A5959.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A6527.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A7008.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A7086.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A7088.jpg" %}
+{% include image.html path="photos/2016-01-26-aus-nz/VK9A7101.jpg" %}
+{:/nomarkdown}

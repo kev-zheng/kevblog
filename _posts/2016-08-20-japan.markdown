@@ -1,0 +1,20 @@
+---
+layout: post
+name: 2016-08-20-japan
+title:  "Japan 2016"
+date:   2016-08-20
+categories: photography
+---
+
+{::nomarkdown}
+{% include image.html path="photos/2016-08-20-japan/01. VK9A6739.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/02. VK9A6833.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/03. VK9A6852.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/04. VK9A6873.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/05. VK9A6877.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/07. VK9A6902.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/08. VK9A6932.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/09. VK9A6945.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/10. VK9A7068.jpg" %}
+{% include image.html path="photos/2016-08-20-japan/11. VK9A6881.jpg" %}
+{:/nomarkdown}
