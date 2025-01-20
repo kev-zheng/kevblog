@@ -4,7 +4,10 @@ name: 2017-02-08-shei
 title:  "SHEI Magazine 2017"
 date:   2017-02-08
 categories: photography
+icon: 📸
 ---
+
+A compilation of photos that I took with SHEI Magazine
 
 {::nomarkdown}
 {% include image.html path="photos/2017-02-08-shei/1. essentials_1.jpg" %}

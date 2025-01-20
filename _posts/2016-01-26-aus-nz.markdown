@@ -1,10 +1,13 @@
 ---
 layout: post
 name: 2016-01-26-aus-nz
-title:  "Australia & New Zealand 2016"
+title:  "Australia & New Zealand 2016 🇦🇺"
 date:   2016-01-26
 categories: photography
+icon: 📸
 ---
+
+A collection of photos from my winter 2015 vacation to Australia (Melbourne, Brisbane) and New Zealand (Christchurch)
 
 {::nomarkdown}
 {% include image.html path="photos/2016-01-26-aus-nz/VK9A3760.jpg" %}

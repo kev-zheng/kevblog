@@ -1,9 +1,10 @@
 ---
 layout: post
 name: 2016-07-25-china-yunnan
-title:  "Yunnan, China 2016"
+title:  "Yunnan, China 2016 🇨🇳 "
 date:   2016-07-25
 categories: photography
+icon: 📸
 ---
 
 {::nomarkdown}

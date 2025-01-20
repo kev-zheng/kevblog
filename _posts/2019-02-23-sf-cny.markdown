@@ -1,9 +1,10 @@
 ---
 layout: post
 name: 2019-02-23-sf-cny
-title:  "SF Chinese New Year Parade 2019"
+title:  "SF Chinese New Year Parade 2019 🐉"
 date:   2019-02-23
 categories: photography
+icon: 📸
 ---
 
 {::nomarkdown}
