@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div class="home homepage container">
+  <div class="profile-column">
+      <div class="profile-container">
+          <img class="profile-picture" src="/assets/profile.jpg" alt="image"/>
+      </div>
+
+      <div class="bio-nav">
+      <a href="{{ page.bio_nav}}">{{ page.bio_nav_desc }}</a>
+      </div>
+  </div>
+
+  <div class="content-column">
+    {{ content }}
+  </div>
+</div>

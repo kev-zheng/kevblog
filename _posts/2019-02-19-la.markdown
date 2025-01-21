@@ -1,0 +1,28 @@
+---
+layout: post
+name: 2019-02-19-la
+title:  "LA 2019 🛴 "
+date:   2019-02-19
+categories: photography
+icon: 📸
+---
+
+Interns take Los Angeles!
+
+{::nomarkdown}
+{% include photo.html path="photos/2019-02-19-la/01. DSC01089.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/02. DSC01113.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/03. DSC01120.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/04. DSC01124.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/05. DSC01133.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/06. DSC01138.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/07. DSC01156.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/08. DSC01167.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/09. DSC01197.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/10. DSC01217.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/11. DSC01249.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/12. DSC01263.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/13. DSC01297.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/14. DSC01335.jpg" %}
+{% include photo.html path="photos/2019-02-19-la/15. DSC01376.jpg" %}
+{:/nomarkdown}

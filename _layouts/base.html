@@ -17,4 +17,11 @@
 
   </body>
 
+{% for js in page.customjs %}
+
+<script type="text/javascript" src="{{ js }}">
+</script>
+
+{% endfor %}
+
 </html>

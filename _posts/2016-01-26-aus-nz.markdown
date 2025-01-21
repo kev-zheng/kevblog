@@ -10,28 +10,28 @@ icon: 📸
 A collection of photos from my winter 2015 vacation to Australia (Melbourne, Brisbane) and New Zealand (Christchurch)
 
 {::nomarkdown}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A3760.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A3789.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A3797.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4102.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4189.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4248.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4276.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4277.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4352.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4590.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4614.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4664.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4698.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A4869.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A5213.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A5351.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A5403.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A5573.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A5959.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A6527.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A7008.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A7086.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A7088.jpg" %}
-{% include image.html path="photos/2016-01-26-aus-nz/VK9A7101.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A3760.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A3789.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A3797.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4102.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4189.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4248.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4276.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4277.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4352.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4590.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4614.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4664.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4698.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A4869.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A5213.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A5351.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A5403.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A5573.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A5959.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A6527.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A7008.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A7086.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A7088.jpg" %}
+{% include photo.html path="photos/2016-01-26-aus-nz/VK9A7101.jpg" %}
 {:/nomarkdown}

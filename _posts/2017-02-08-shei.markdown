@@ -10,13 +10,13 @@ icon: 📸
 A compilation of photos that I took with SHEI Magazine
 
 {::nomarkdown}
-{% include image.html path="photos/2017-02-08-shei/1. essentials_1.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/2. essentials_2.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/3. contrast_1.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/4. contrast_2.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/5. contrast_3.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/6. contrast_4.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/7. menswear_1.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/8. menswear_3.jpg" %}
-{% include image.html path="photos/2017-02-08-shei/9. menswear_4.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/1. essentials_1.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/2. essentials_2.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/3. contrast_1.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/4. contrast_2.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/5. contrast_3.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/6. contrast_4.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/7. menswear_1.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/8. menswear_3.jpg" %}
+{% include photo.html path="photos/2017-02-08-shei/9. menswear_4.jpg" %}
 {:/nomarkdown}

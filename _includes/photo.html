@@ -1,0 +1,12 @@
+<div class="photo-row">
+    <div class="photo-container">
+      <img src='/{{ include.path }}'>
+      {% capture has_exif %}{{ include.path | exif: "exif?" }}{% endcapture %}
+      {% if has_exif %}
+        <div class=photo-overlay>
+            <p></p>
+            <p>{{ include.path | exif: 'model' }} | f{{ include.path | exif: 'f_number.to_f' }} {{ include.path | exif: 'exposure_time.to_s' }}</p>
+        </div>
+      {% endif %}
+    </div>
+</div>

@@ -1,0 +1,129 @@
+---
+layout: post
+name: 2018-01-21-osx
+title:  "A More Productive OSX 🍏"
+date:   2018-01-21
+categories: tech
+icon: 🧪
+---
+
+<br>
+
+##### Hammerspoon and Karabiner-Elements are all you need for a frictionless OSX experience
+
+I use two tools to massively boost my productivity while working on OSX. This article describes my configuration and how you can customize it to your own needs.
+
+[Hammerspoon](http://www.hammerspoon.org/) is an incredibly powerful wrapper around OSX, allowing you to easily interact with the OS via scripting, such as trigger notifications, move and resize windows, open applications, etc.
+
+[Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements) is a keyboard customization tool. I use this to remap keys to make it simple to trigger my Hammerspoon scripts from the keyboard.
+
+#### Features
+* position - Instantly resize windows into halves of your screen
+* focus - Shift focus (i.e. click) onto an app, or launch if not open
+* monitor - Move windows between external monitors or spaces
+* gcal - Menu bar to see all of your upcoming calendar events
+* timer - Pomodoro timer to keep you focused
+
+#### Position
+Window positioning module borrowed from Miro Mannino.
+* `hyper + right` resizes window to right side of screen.
+* `hyper + left` resizes window to left side of screen.
+* `hyper + up` resizes window to upper side of screen.
+* `hyper + down` resizes window to bottom side of screen.
+
+Repeated presses of the above will cycle half, quarter, and 2/3 of screen.
+
+hyper + enter resizes window to entire screen
+
+Repeated presses of hyper + enter will cycle through resizing similarly.
+
+{::nomarkdown}
+{% include image.html path="photos/2018-01-21-osx/position.gif" %}
+{:/nomarkdown}
+
+#### Focus
+File containing hotkey bindings. Each segment binds a hotkey to a useful application - such as `hyper + c` to launch Chrome
+
+{::nomarkdown}
+{% include image.html path="photos/2018-01-21-osx/focus.gif" %}
+{:/nomarkdown}
+
+
+#### Monitor
+Keybindings used to interact with an external monitor, or between spaces within a monitor. Very useful for moving applications back and forth.
+
+* `hyper + shift + right` cycles the current application to monitor on the right
+* `hyper + shift + left` cycles the current application to monitor on the left
+* `hyper + shift + h` moves the current application to a space on the left
+* `hyper + shift + l` moves the current application to a space on the right
+
+
+{::nomarkdown}
+{% include image.html path="photos/2018-01-21-osx/spaces.gif" %}
+{:/nomarkdown}
+
+
+#### gcal
+Constructs a menubar. Uses the Google Calendar API to fetch events, colors, timing, etc. to a json file, which are then loaded into the menubar on each refresh.
+
+{::nomarkdown}
+{% include image.html path="photos/2018-01-21-osx/calendar.png" %}
+{:/nomarkdown}
+
+#### timer
+A simple pomodoro timer! Sets a default time for 25 minutes, with option to pause and cancel.
+
+{::nomarkdown}
+{% include image.html path="photos/2018-01-21-osx/timer.gif" %}
+{:/nomarkdown}
+
+
+#### How to use
+##### Karabiner-Elements
+
+Karabiner-Elements is a relatively new tool made when OSX Sierra came out. As a result, installing it is a bit of a hassle as it’s still under continuous development. Follow the instructions in the `How to Build` section in the link [above](https://github.com/tekezo/Karabiner-Elements). It requires installing C++ Boost Libraries, XCode Build tools beforehand but should compile into a standalone application, which doesn’t need to be compiled every time you update.
+
+edit: [it can now be downloaded directly as a package!](https://pqrs.org/osx/karabiner/)
+
+Use Karabiner to make a `hyper` key. I rebinding my caps lock key (which I never use) into `ctrl+alt+cmd`. Do this by editing your `karabiner.json` file located in `~/.config/karabiner`. [See my file here that you can copy/paste](https://github.com/kev-zheng/hammerspoon/blob/master/karabiner.json)
+
+##### Hammerspoon
+Download the latest release. I recommend familiarizing with it through the getting started guide here.
+
+Hammerspoon interacts with the operating system using the Lua language, which is an easy to learn scripting language. Whenever hammerspoon is loaded or refreshed, your `~/.hammerspoon/init.lua` file is processed. You can use the console as a REPL for lua code.
+
+
+To start, I defined the hyperkey
+
+`init.lua`
+```
+hyper = {"ctrl", "alt", "cmd"}
+
+```
+
+and followed the [docs](http://www.hammerspoon.org/docs/hs.application.html#launchOrFocus) to build the focusing hotkey
+
+
+`focus.lua`
+```
+    hs.hotkey.bind(hyper, "C", function ()
+      hs.application.launchOrFocus('Google Chrome')
+    end)
+    
+    hs.hotkey.bind(hyper, 'E', function ()
+      hs.application.launchOrFocus('Visual Studio Code')
+    end)
+    
+```
+
+The file `focus.lua` is separate from `init.lua`. To activate this code, all I need to do is include `focus.lua`
+
+`init.lua`
+
+```
+require('focus')
+```
+
+Hammerspoon has a great community that have built a ton of other [spoons](https://github.com/Hammerspoon/Spoons) and [sample configurations](https://github.com/Hammerspoon/hammerspoon/wiki/Sample-Configurations). For instance, I borrowed the fantastic [resizing hotkey](https://github.com/miromannino/miro-windows-manager) functionality from another user.
+
+
