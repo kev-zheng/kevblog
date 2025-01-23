@@ -387,3 +387,72 @@ img {
   opacity: 1;
   pointer-events: auto;
 }
+
+table.SummaryTable {
+  border: 3px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+table.SummaryTable td, table.SummaryTable th {
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+
+table.SummaryTable thead {
+  background: #F8C4FF;
+  font-weight: 700;
+}
+
+table.SummaryTable tfoot {
+  background: #b7d9f7;
+  font-weight: 700;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 20px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
