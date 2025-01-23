@@ -9,9 +9,17 @@ icon: 🛩️
 
 <br>
 
-This is a neurotic documentation of my (+ my sister's) trip to Switzerland and Japan. 🤓
+{::nomarkdown}
+{% include photo.html path="photos/2025-01-23-switzerland-japan/zermatt.jpeg" %}
+{:/nomarkdown}
+<small>*One of the mountains (not the Matterhorn) in Zermatt, Switzerland*</small>
 
-**Premise + Constraints**
+{::nomarkdown}
+{% include photo.html path="photos/2025-01-23-switzerland-japan/teine.jpeg" %}
+{:/nomarkdown}
+<small>*View of Sapporo from Teine Ski Resort*</small>
+
+This is a neurotic documentation of my (+ my sister's) trip to Switzerland and Japan. 🤓
 * Planning date: Nov 2024
 * Trip date: Jan 2025
 
@@ -567,6 +575,10 @@ The best option with availability seemed to be Japan Airlines. I was able to fin
 Later, through seats.aero alerts, I was able to book ANA First Class NRT-ORD on Virgin Atlantic for **61,000** Amex points (after a 40% transfer bonus)!
 
 {% include image.html path="photos/2025-01-23-switzerland-japan/nh12.png" %}
+
+Here's what the final itinerary looks like!
+
+{% include image.html path="photos/2025-01-23-switzerland-japan/gcmap_kevin.png" %}
 
 <br>
 
