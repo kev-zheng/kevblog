@@ -4,7 +4,7 @@ name: 2018-01-21-osx
 title:  "A More Productive OSX 🍏"
 date:   2018-01-21
 categories: tech
-icon: 🧪
+icon: 🧑‍💻
 ---
 
 <br>
