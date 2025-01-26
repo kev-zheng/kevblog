@@ -552,6 +552,8 @@ Swiss business class, at least at the time of booking, is quite easy to find yea
 
 {% include image.html path="photos/2025-01-23-switzerland-japan/jfk_zrh_nrt.png" %}
 
+Swiss First Class, on the other hand, is much harder to book. No other programs other than Swiss can book it with points, and it commands a steep $16k price tag. I've [heard](https://onemileatatime.com/insights/swiss-777-first-class/) of bloggers being able to upgrade their flight at check-in. Maybe I'd try that out, because when else am I going to try it?
+
 For Cathy, since she was already going to be in Hawaii, I booked her JL economy via Qantas for ~30k points. Later, I found premium economy availability for 40k points and switched her onto that.
 
 ##### Outbound
