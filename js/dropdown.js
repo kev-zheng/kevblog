@@ -1,4 +1,4 @@
-var grid = new Muuri('.grid', {dragEnabled: false, layout: {fillGaps: true}});
+var grid = new Muuri('.HomeGrid', {dragEnabled: false, layout: {fillGaps: true}});
 
 var filterField = document.querySelector('.filter-field');
 filterField.addEventListener('change', filter);
