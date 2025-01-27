@@ -1,8 +1,8 @@
 ---
 layout: post
-name: 2025-01-23-switzerland-japan
+name: 2025-01-13-switzerland-japan
 title:  "Switzerland & Japan 2025 🏔️🗻"
-date:   2025-01-23
+date:   2025-01-13
 categories: award-travel
 icon: 🛩️ 
 ---
@@ -10,12 +10,12 @@ icon: 🛩️
 <br>
 
 {::nomarkdown}
-{% include photo.html path="photos/2025-01-23-switzerland-japan/zermatt.jpeg" %}
+{% include photo.html path="photos/2025-01-13-switzerland-japan/zermatt.jpeg" %}
 {:/nomarkdown}
 <small>*One of the mountains (not the Matterhorn) in Zermatt, Switzerland*</small>
 
 {::nomarkdown}
-{% include photo.html path="photos/2025-01-23-switzerland-japan/teine.jpeg" %}
+{% include photo.html path="photos/2025-01-13-switzerland-japan/teine.jpeg" %}
 {:/nomarkdown}
 <small>*View of Sapporo from Teine Ski Resort*</small>
 
@@ -542,7 +542,7 @@ Cathy's flights.
 
 After a couple days of browsing, I found the following flights on Aeroplan for **87,500** points. I was particularly excited to try Singapore Airlines business class.
 
-{% include image.html path="photos/2025-01-23-switzerland-japan/jfk_fra_nrt.png" %}
+{% include image.html path="photos/2025-01-13-switzerland-japan/jfk_fra_nrt.png" %}
 
 Then, I found out about Air Canada's great stopover policy. You can add 1 stopover on most tickets as a multi-city/stopover booking for 5,000 points. I figured, let's break up the trip and add skiing in Switzerland.
 
@@ -550,7 +550,7 @@ Unfortunately, since I did not book the flex ticket for free changes, I paid a ~
 
 Swiss business class, at least at the time of booking, is quite easy to find year round.
 
-{% include image.html path="photos/2025-01-23-switzerland-japan/jfk_zrh_nrt.png" %}
+{% include image.html path="photos/2025-01-13-switzerland-japan/jfk_zrh_nrt.png" %}
 
 Swiss First Class, on the other hand, is much harder to book. No other programs other than Swiss can book it with points, and it commands a steep $16k price tag. I've [heard](https://onemileatatime.com/insights/swiss-777-first-class/) of bloggers being able to upgrade their flight at check-in. Maybe I'd try that out, because when else am I going to try it?
 
@@ -572,15 +572,15 @@ The best option with availability seemed to be Japan Airlines. I was able to fin
   * cancel the flight online and book it after points redeposit. This will lose you the $12.50 nonrefundable partner booking fee.
 * I did the second option several times... and that partner booking fee adds up.
 
-{% include image.html path="photos/2025-01-23-switzerland-japan/cts_hnd_dfw.png" %}
+{% include image.html path="photos/2025-01-13-switzerland-japan/cts_hnd_dfw.png" %}
 
 Later, through seats.aero alerts, I was able to book ANA First Class NRT-ORD on Virgin Atlantic for **61,000** Amex points (after a 40% transfer bonus)!
 
-{% include image.html path="photos/2025-01-23-switzerland-japan/nh12.png" %}
+{% include image.html path="photos/2025-01-13-switzerland-japan/nh12.png" %}
 
 Here's what the final itinerary looks like!
 
-{% include image.html path="photos/2025-01-23-switzerland-japan/gcmap_kevin.png" %}
+{% include image.html path="photos/2025-01-13-switzerland-japan/gcmap_kevin.png" %}
 
 <br>
 

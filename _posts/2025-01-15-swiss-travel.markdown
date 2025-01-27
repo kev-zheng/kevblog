@@ -1,8 +1,8 @@
 ---
 layout: post
-name: 2025-01-13-swiss-travel
+name: 2025-01-15-swiss-travel
 title:  "SWISS Business & First Class"
-date:   2025-01-13
+date:   2025-01-15
 categories: travel-stories
 icon: 🏖️
 ---
@@ -18,7 +18,7 @@ At time of booking, finding SWISS business class availability was quite easy. Aw
 Even now, a quick search on [seats.aero](https://seats.aero/) returns some space two months from now.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/jfk_zrh.png" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/jfk_zrh.png" %}
 {:/nomarkdown}
 
 Why fly through Europe (or transatlantic, aka "the long way") to Asia?
@@ -29,7 +29,7 @@ My tl;dr impressions:
 * If your goal is to just go to Asia, SWISS is a great back up option while setting alerts to monitor for something aspirational.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/gondola_ramen.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/gondola_ramen.jpeg" %}
 {:/nomarkdown}
 
 *Instant ramen whilst in a gondola in Zermatt*
@@ -57,7 +57,7 @@ Unfortunately, on the morning of the flight, I got a notification that my flight
 Anyway, Geneva is pretty much equidistant to Zermatt from Zurich, so I'll only arrive a couple hours later than planned.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/massage.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/massage.jpeg" %}
 {:/nomarkdown}
 *Massage functionality in the SWISS seats*
 
@@ -83,7 +83,7 @@ Upon arrival at the ZRH first class lounge, the check-in agents said I was right
 Clearing through security was a breeze (<5 min). I rode in a private shuttle directly to the terminal, which is on a separate island designated for non-Schengen departures.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/lx_f_shuttle.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/lx_f_shuttle.jpeg" %}
 {:/nomarkdown}
 
 There were ~8 others on the shuttle dressed in various forms of business wear, contrasted by myself, sweaty from running around the terminal.
@@ -97,8 +97,8 @@ I could only imagine what the rest of the ZRH lounge and experience was like.
 Incredible. There's tons of space, including a closet and hangers. A huge TV screen. Nothing felt *cheap* - the seat itself feels like a high-end chaise. There's plenty of wooden accents and even a lamp secured on the side.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/lx_f_seat.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/closet.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/lx_f_seat.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/closet.jpeg" %}
 {:/nomarkdown}
 
 ##### Dining
@@ -112,14 +112,14 @@ The fondue was super fun. The FA recommended a schnapps spirit to go with it, an
 The salmon and breakfast pancake were probably my favorite items.
 
 {::nomarkdown}
-{% include image.html path="photos/2025-01-13-swiss-travel/amuse_bouche.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/salmon.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/salad.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/mousse.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/beef.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/fondue.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/pancake.jpeg" %}
-{% include image.html path="photos/2025-01-13-swiss-travel/chocolate.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/amuse_bouche.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/salmon.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/salad.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/mousse.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/beef.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/fondue.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/pancake.jpeg" %}
+{% include image.html path="photos/2025-01-15-swiss-travel/chocolate.jpeg" %}
 {:/nomarkdown}
 
 ##### Conclusion
