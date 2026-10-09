@@ -12,7 +12,7 @@ icon: 🛩️
 {::nomarkdown}
 {% include photo.html path="photos/2025-01-13-switzerland-japan/zermatt.jpeg" %}
 {:/nomarkdown}
-<small>*One of the mountains (not the Matterhorn) in Zermatt, Switzerland*</small>
+<small>*A cool looking mountain in Zermatt, Switzerland*</small>
 
 {::nomarkdown}
 {% include photo.html path="photos/2025-01-13-switzerland-japan/teine.jpeg" %}

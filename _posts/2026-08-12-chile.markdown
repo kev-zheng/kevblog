@@ -1,0 +1,18 @@
+---
+layout: post
+name: 2026-08-12-chile
+title:  "Chile 2026 🇨🇱"
+date:   2026-08-12
+categories: photography
+icon: 📸
+---
+
+<br>
+
+Valle Nevado, in the Andes above Santiago.
+
+{::nomarkdown}
+{% include photo.html path="photos/2026-08-12-chile/valle_nevado_expanse.jpg" %}
+{% include photo.html path="photos/2026-08-12-chile/valle_nevado_mountain_pic.jpg" %}
+{% include photo.html path="photos/2026-08-12-chile/valle_nevado_top_ridge.jpg" %}
+{:/nomarkdown}

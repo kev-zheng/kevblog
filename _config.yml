@@ -29,6 +29,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Repo files that are not part of the site.
+exclude:
+  - AGENTS.md
+  - Makefile
+  - vendor
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
