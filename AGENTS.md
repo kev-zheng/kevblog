@@ -26,8 +26,9 @@ Never run `jekyll serve` into `_site/`: serve rewrites `site.url` to
 1. **Kevin points at a folder of photos** (typically a Darktable export under
    `~/Pictures/Darktable/<date>_<name>/`).
 2. **Only use photos with human-legible names.** Kevin renames the keepers to
-   something descriptive. Files still carrying the camera/export pattern
-   (`20260908_0058.jpg`, `.DNG`, `.xmp`, etc.) are rejects: ignore them.
+   something descriptive. Files still carrying a camera/export pattern
+   (`20260908_0058.jpg`, Ricoh `R0000123.JPG`, `.DNG`, `.xmp`, etc.) are
+   rejects: ignore them.
 3. **Create the post** in `_posts/` following the existing convention:
    - Filename: `YYYY-MM-DD-<slug>.markdown`
    - Front matter:
@@ -62,7 +63,8 @@ Never run `jekyll serve` into `_site/`: serve rewrites `site.url` to
    mkdir -p "$DST"
    for f in "$SRC"/*.jpg "$SRC"/*.JPG; do
      case "$(basename "$f")" in
-       [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_[0-9]*) continue ;;  # unnamed reject
+       [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_[0-9]*) continue ;;  # darktable export name
+       R[0-9][0-9][0-9][0-9][0-9][0-9][0-9].*) continue ;;             # ricoh camera name
      esac
      [ -e "$f" ] || continue
      sips -Z 2048 -s formatOptions 85 "$f" --out "$DST/$(basename "${f%.*}").jpg" >/dev/null

@@ -12,12 +12,12 @@ icon: 🛩️
 {::nomarkdown}
 {% include photo.html path="photos/2025-01-13-switzerland-japan/zermatt.jpeg" %}
 {:/nomarkdown}
-<small>*A cool looking mountain in Zermatt, Switzerland*</small>
+<small>*Zermatt, Switzerland*</small>
 
 {::nomarkdown}
 {% include photo.html path="photos/2025-01-13-switzerland-japan/teine.jpeg" %}
 {:/nomarkdown}
-<small>*View of Sapporo from Teine Ski Resort*</small>
+<small>*Teine Ski Resort, Sapporo*</small>
 
 This is a neurotic documentation of my (+ my sister's) trip to Switzerland and Japan. 🤓
 * Planning date: Nov 2024
