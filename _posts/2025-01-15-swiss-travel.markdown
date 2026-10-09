@@ -5,11 +5,12 @@ title:  "SWISS Business & First Class"
 date:   2025-01-15
 categories: travel-stories
 icon: 🏖️
+hidden: true
 ---
 
 <br>
 
-This past vacation, I had the chance to visit [Switzerland and Japan](award-travel/2025/01/23/switzerland-japan). En route to Japan, I booked a SWISS Business Class ticket with a stopover in Zurich to visit Zermatt.
+This past vacation, I had the chance to visit [Switzerland and Japan](/award-travel/2025/01/13/switzerland-japan.html). En route to Japan, I booked a SWISS Business Class ticket with a stopover in Zurich to visit Zermatt.
 
 #### Preamble
 

@@ -23,6 +23,7 @@ customjs:
     <div class="HomeGrid">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
+      {%- if post.hidden -%}{%- continue -%}{%- endif -%}
       <div class="item row" data-category="{{ post.categories }}">
       <a class="post-meta no-link-decoration" href="{{ post.url | relative_url }}">{{ post.icon }} {{ post.title }}</a>
         <p class="post-meta">{{ post.date | date: date_format }}</p>

@@ -20,9 +20,9 @@
 
 title: Kevin Zheng
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://kev-zheng.github.io" # the base hostname & protocol for your site
+github_username: kev-zheng
+timezone: America/New_York
 
 # Build settings
 theme: minima
