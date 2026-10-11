@@ -5,7 +5,7 @@ layout: base
 <div class="home homepage container">
   <div class="profile-column">
       <div class="profile-container">
-          <img class="profile-picture" src="/assets/profile.jpg" alt="image"/>
+          <img class="profile-picture" src="{{ page.profile_pic | default: "/assets/profile-home.jpg" }}" alt="profile picture"/>
       </div>
 
       <div class="bio-nav">

@@ -91,4 +91,7 @@ Then build, and verify every `photos/...` path referenced in the post exists in
 - `js/dropdown.js`: Muuri grid + category filter on the home page. Categories
   offered: `travel-stories`, `award-travel`, `tech`, `photography`.
 - `assets/custom.css`: all site styling on top of Skeleton CSS.
+- `assets/profile-home.jpg` / `profile-about.jpg`: the round profile pictures.
+  Each page picks one with `profile_pic:` in its front matter (see `index.md`,
+  `about.md`); `_layouts/profile.html` falls back to the home one.
 - `photos/<post-slug>/`: images, committed to git.
