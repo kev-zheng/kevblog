@@ -5,7 +5,7 @@
       {% if has_exif %}
         <div class=photo-overlay>
             <p></p>
-            <p>{{ include.path | exif: 'model' }} | f{{ include.path | exif: 'f_number.to_f' }} {{ include.path | exif: 'exposure_time.to_s' }}</p>
+            <p>{{ include.path | exif: 'model' | strip }} | f{{ include.path | exif: 'f_number.to_f' | round: 1 }} {{ include.path | exif: 'exposure_time.to_s' }}</p>
         </div>
       {% endif %}
     </div>

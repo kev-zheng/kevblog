@@ -27,8 +27,8 @@ Never run `jekyll serve` into `_site/`: serve rewrites `site.url` to
    `~/Pictures/Darktable/<date>_<name>/`).
 2. **Only use photos with human-legible names.** Kevin renames the keepers to
    something descriptive. Files still carrying a camera/export pattern
-   (`20260908_0058.jpg`, Ricoh `R0000123.JPG`, `.DNG`, `.xmp`, etc.) are
-   rejects: ignore them.
+   (`20260908_0058.jpg`, Ricoh `R0000123.JPG`, iPhone `IMG_1234.HEIC`,
+   `.DNG`, `.xmp`, etc.) are rejects: ignore them.
 3. **Create the post** in `_posts/` following the existing convention:
    - Filename: `YYYY-MM-DD-<slug>.markdown`
    - Front matter:
@@ -65,11 +65,15 @@ Never run `jekyll serve` into `_site/`: serve rewrites `site.url` to
      case "$(basename "$f")" in
        [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]_[0-9]*) continue ;;  # darktable export name
        R[0-9][0-9][0-9][0-9][0-9][0-9][0-9].*) continue ;;             # ricoh camera name
+       IMG_[0-9]*) continue ;;                                        # iphone camera name
      esac
      [ -e "$f" ] || continue
-     sips -Z 2048 -s formatOptions 85 "$f" --out "$DST/$(basename "${f%.*}").jpg" >/dev/null
+     sips -Z 2048 -s format jpeg -s formatOptions 85 "$f" --out "$DST/$(basename "${f%.*}").jpg" >/dev/null
    done
    ```
+   Named `.HEIC` files (iPhone shots) are keepers too; the loop above should
+   also glob `"$SRC"/*.heic "$SRC"/*.HEIC`. `-s format jpeg` converts them
+   and keeps EXIF, so the overlay shows the iPhone model.
    Never copy the originals, `.DNG`, or `.xmp` files into the repo.
 5. **Confirm the post shows on the home page.** The home grid is generated from
    `site.posts` in `_layouts/home.html`; there is no list to edit by hand in
