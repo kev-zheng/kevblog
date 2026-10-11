@@ -13,7 +13,9 @@ A couple days in Venice, including the Biennale Art Festival.
 
 {::nomarkdown}
 {% include photo.html path="photos/2026-10-07-venice/venice_1.jpg" %}
+{% include photo.html path="photos/2026-10-07-venice/venice_phone_1.jpg" %}
 {% include photo.html path="photos/2026-10-07-venice/venice_2.jpg" %}
+{% include photo.html path="photos/2026-10-07-venice/venice_phone_2.jpg" %}
 {% include photo.html path="photos/2026-10-07-venice/venice_3.jpg" %}
 {% include photo.html path="photos/2026-10-07-venice/venice_4.jpg" %}
 {% include photo.html path="photos/2026-10-07-venice/venice_5.jpg" %}
